@@ -1,0 +1,3 @@
+gradio>=5,<7
+httpx>=0.27,<1
+velantrim-exocortex-crystal @ git+https://github.com/velantrian/velantrim-exocortex-crystal.git@3ed3a53ee9b8445a5f2ebf16046f782a3095555e

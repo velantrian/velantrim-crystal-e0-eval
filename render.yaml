@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: velantrim-crystal-e0-eval
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python app.py
+    autoDeploy: true
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
